@@ -1,0 +1,37 @@
+/* 네비게이션 */
+#nav_logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #6f99ea;
+}
+#nav_search {
+  width: 280px;
+  height: 40px;
+  border: 1px solid #a99d9d;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+#nav_search::placeholder {
+  font-size: 12px;
+}
+#nav_login {
+  margin-right: 30px;
+}
+#nav_logout {
+  margin-right: 30px;
+}
+#nav_signup {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+/* 컨텐츠 박스 */
+#toTripInfoBtn {
+  background-color: rgb(111, 153, 234, 0.3);
+}
+#toTripInfoBtn:hover {
+  background-color: rgb(111, 153, 234);
+}
